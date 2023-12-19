@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T03:08:00.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="de5ere1SntZZz2OqUECU" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T03:16:24.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Xo0CMxJin-_XNriB6_8h" version="22.1.11" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="730" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="2e49270ec7c68f3f-4" value="广东四大行主要业务指标旬报.xlsx" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;" parent="2e49270ec7c68f3f-1" vertex="1">
           <mxGeometry y="26" width="160" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="2e49270ec7c68f3f-30" value="目标格式" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14" parent="1" vertex="1">
-          <mxGeometry x="540" y="290" width="180" height="192" as="geometry" />
+        <mxCell id="2e49270ec7c68f3f-30" value="目标表" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="620" y="490" width="180" height="192" as="geometry" />
         </mxCell>
         <mxCell id="2e49270ec7c68f3f-31" value="&lt;span style=&quot;&quot;&gt;data_bsn_dt 数据日期&lt;/span&gt;" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=1;strokeColor=none;" parent="2e49270ec7c68f3f-30" vertex="1">
           <mxGeometry y="26" width="180" height="30" as="geometry" />
@@ -56,39 +56,39 @@
           <mxGeometry width="56" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2e49270ec7c68f3f-48" value="处理原始数据" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14" parent="1" vertex="1">
-          <mxGeometry x="255" y="502" width="210" height="255" as="geometry" />
+          <mxGeometry x="270" y="490" width="250" height="255" as="geometry" />
         </mxCell>
         <mxCell id="2e49270ec7c68f3f-49" value="读取原始数据" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=0;" parent="2e49270ec7c68f3f-48" vertex="1">
-          <mxGeometry y="26" width="210" height="30" as="geometry" />
+          <mxGeometry y="26" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2e49270ec7c68f3f-50" value="1" style="shape=partialRectangle;fontStyle=1;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="2e49270ec7c68f3f-49" vertex="1" connectable="0">
           <mxGeometry width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2e49270ec7c68f3f-51" value="将原格式改为每个指标名称对应两个度量类型：余额、新增。若无值，则留空nan" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=0;strokeColor=none;" parent="2e49270ec7c68f3f-48" vertex="1">
-          <mxGeometry y="56" width="210" height="64" as="geometry" />
+          <mxGeometry y="56" width="250" height="54" as="geometry" />
         </mxCell>
         <mxCell id="2e49270ec7c68f3f-52" value="2" style="shape=partialRectangle;fontStyle=1;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="2e49270ec7c68f3f-51" vertex="1" connectable="0">
-          <mxGeometry width="40" height="64" as="geometry" />
+          <mxGeometry width="40" height="54" as="geometry" />
         </mxCell>
         <mxCell id="IBSlyfgbLK6Ozpxmy_K6-3" value="使用公式.xlsx将能对应上的指标名称全部改为统一的中文指标名称。详见“数据库指标名称”行。" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=0;strokeColor=none;" vertex="1" parent="2e49270ec7c68f3f-48">
-          <mxGeometry y="120" width="210" height="70" as="geometry" />
+          <mxGeometry y="110" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IBSlyfgbLK6Ozpxmy_K6-4" value="3" style="shape=partialRectangle;fontStyle=1;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="IBSlyfgbLK6Ozpxmy_K6-3">
-          <mxGeometry width="40" height="70" as="geometry" />
+          <mxGeometry width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IBSlyfgbLK6Ozpxmy_K6-9" value="row 2" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;strokeColor=none;" vertex="1" parent="2e49270ec7c68f3f-48">
-          <mxGeometry y="190" width="210" height="34" as="geometry" />
+        <mxCell id="IBSlyfgbLK6Ozpxmy_K6-9" value="外部输入建行当期美元汇率，重新计算其他三个行的本外币数据。&lt;br&gt;本外币=人民币+外币折美元*建行汇率" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=0;strokeColor=none;" vertex="1" parent="2e49270ec7c68f3f-48">
+          <mxGeometry y="170" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="IBSlyfgbLK6Ozpxmy_K6-10" value="4" style="shape=partialRectangle;fontStyle=1;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="IBSlyfgbLK6Ozpxmy_K6-9">
           <mxGeometry width="40" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="IBSlyfgbLK6Ozpxmy_K6-5" value="row 1" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;" vertex="1" parent="2e49270ec7c68f3f-48">
-          <mxGeometry y="224" width="210" height="30" as="geometry" />
+        <mxCell id="IBSlyfgbLK6Ozpxmy_K6-5" value="row 1" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=0;" vertex="1" parent="2e49270ec7c68f3f-48">
+          <mxGeometry y="204" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IBSlyfgbLK6Ozpxmy_K6-6" value="4" style="shape=partialRectangle;fontStyle=1;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="IBSlyfgbLK6Ozpxmy_K6-5">
           <mxGeometry width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2e49270ec7c68f3f-60" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;exitX=1.011;exitY=0.076;entryX=0;entryY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2e49270ec7c68f3f-48" target="2e49270ec7c68f3f-35" edge="1">
+        <mxCell id="2e49270ec7c68f3f-60" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;exitX=1.011;exitY=0.076;entryX=-0.004;entryY=0.061;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2e49270ec7c68f3f-48" target="2e49270ec7c68f3f-30" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="600" y="720" as="sourcePoint" />
             <mxPoint x="700" y="620" as="targetPoint" />
